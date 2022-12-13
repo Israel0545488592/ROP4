@@ -90,8 +90,6 @@ for n, (right, left) in zip(range(10), GenRanLinSys(3)):
 
 
 if __name__ == '__main__':
-
-    rnd.seed(1)
     
     print(*CVX_vs_NP(10, 20))
 
