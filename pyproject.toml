@@ -1,0 +1,8 @@
+# TOML is a file format for configuration files.
+# It is intended to be easy to read and write due to obvious semantics which aim to be "minimal",
+# and is designed to map unambiguously to a dictionary. Its specification is open-source,
+# and receives community contributions.
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--doctest-modules --ignore=__pycache__"
